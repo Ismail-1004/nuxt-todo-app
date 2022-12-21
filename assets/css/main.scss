@@ -26,6 +26,10 @@ body {
 
     &__form {
         width: 400px;
+
+        @media (max-width: 576px) {
+            width: 300px;
+        }
     }
 
     &__list {
@@ -39,6 +43,10 @@ body {
 
         &::-webkit-scrollbar {
             width: 0;
+        }
+
+        @media (max-width: 576px) {
+            width: 300px;
         }
 
         &-item {
